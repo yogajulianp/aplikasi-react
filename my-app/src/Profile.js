@@ -1,5 +1,4 @@
 import React from 'react';
-import {createRoot} from 'react-dom/client'
 
 function Profile() {
     /*const heading = React.createElement('h1', null, 'Biodata Perusahaan');
@@ -11,7 +10,8 @@ function Profile() {
     const unorderedList = React.createElement('ul','null',[listItem1, listItem2, listItem3]);
 
     const container = React.createElement('div',null,[heading, unorderedList])*/
-    const element = (
+    
+        return (
         <div>
             <h1>Biodata Perusahaan</h1>
             <ul>
@@ -21,11 +21,8 @@ function Profile() {
                 <img src="logo1.png" alt="Institute logo"/>
             </ul>
         </div>
-    );
-
-
-    const root = createRoot(document.getElementById('root'));
-    root.render(element) 
+        )
+    
 }
 
 

@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
-//import Profile from './Profile'
+import Page from './Page';
 import reportWebVitals from './reportWebVitals';
-import News from './News';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
+    <Page/>
     
-    <News/>
   </React.StrictMode>
 );
 
