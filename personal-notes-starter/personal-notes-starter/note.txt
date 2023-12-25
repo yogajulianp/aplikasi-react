@@ -1,0 +1,31 @@
+import React from "react";
+import { getInitialData, showFormattedDate } from "../Utils/data";
+
+
+class NoteDate extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            date : createdAt
+        }
+
+        this.onDateHandler = this.onDateHandler.bind(this);
+    }
+
+
+    onDateHandler(createdAt) {
+        const date = showFormattedDate(createdAt)
+        this.setState(date)
+    }
+
+    render() {
+        return (
+            <div className="note-item__content">
+                <h2 className="note-item__date">{this.onDateHandler}</h2>
+            </div>
+        )
+    }
+
+}
+
+export default NoteDate;

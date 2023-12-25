@@ -133,6 +133,7 @@ input::placeholder, textarea::placeholder {
   font-size: 12px;
   margin-bottom: 8px;
   color: #aaa;
+  text-align:right
 }
 
 .note-item__body {
