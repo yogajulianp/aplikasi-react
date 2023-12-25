@@ -33,6 +33,7 @@ class ContactApp extends React.Component {
                 ]
             }
         })
+        console.log(this);
     }
 
     render()
