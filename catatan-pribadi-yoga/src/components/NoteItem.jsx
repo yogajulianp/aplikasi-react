@@ -5,7 +5,7 @@ import DeleteButton from "./DeleteButton";
 
 function NoteItem({title, body, id, onDelete}) {
     return (
-        <div>
+        <div className="note-item">
             <NoteTitleItem title={title}/>
             <NoteTextItem body={body}/>
             <DeleteButton id={id} onDelete={onDelete}/>

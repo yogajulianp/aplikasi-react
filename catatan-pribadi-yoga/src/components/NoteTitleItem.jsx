@@ -2,8 +2,8 @@ import React from "react";
 
 function NoteTitleItem({title}){
     return (
-        <div>
-            <h2>{title}</h2>
+        <div className="note-item__content">
+            <h2 className="note-item__title">{title}</h2>
         </div>
     )
 }

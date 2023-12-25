@@ -3,8 +3,8 @@ import NoteApp from './components/NoteApp';
 
 function Homepage () {
         return (
-            <div>
-                <h2>Catatan Pribadi</h2>
+            <div >
+                <h1 className="note-app__header">Catatan Pribadi</h1>
                 <NoteApp/>
               
             </div>
