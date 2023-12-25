@@ -3,16 +3,15 @@ import React from 'react';
 //import News from './News';
 //import App from './App';
 //import Profile from './Profile'
-//import ContactApp from './ContactApp/ContactApp';
-import CounterApp from './CounterApp/CounterApp';
+import ContactApp from './ContactApp/ContactApp';
+//import CounterApp from './CounterApp/CounterApp';
 
 function Page () {
         return (
             <div>
                 <h2>Latihan</h2>
            
-                <CounterApp/>
-                
+                <ContactApp/>
             </div>
         );      
 }
